@@ -27,7 +27,7 @@ body {
 
 .hero{
     height: 100vh;
-    background-image: url('../assets/aral-tasher-vWsubsaym3o-unsplash.jpg');
+    background-image: url('../assets/victor-aznabaev-pjTU9Edzc1g-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -40,3 +40,38 @@ body {
     padding: 0;
 }
 
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 700;
+}
+
+.nav--footer{
+    font-weight: 300;
+    justify-content: flex-start;
+}
+
+.nav__items{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-weight: inherit;
+}
+
+.nav__items--cta{
+    border: 1px solid #fff;
+}
+
+.nav__items--footer{
+    padding: 10px;
+}
+
+.hero__container{
+    display: flex;
+    height: calc(100vh - 70px);
+    align-items: center;
+    color: #fff;
+
+}
