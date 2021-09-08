@@ -18,3 +18,25 @@ body {
     padding: 80px 0px;
     max-width: 1200px;
 }
+
+.subtitle{
+    color: var(--color-primary);
+    font-size: 2.5rem;
+    margin-bottom: 35px;
+}
+
+.hero{
+    height: 100vh;
+    background-image: url('../assets/aral-tasher-vWsubsaym3o-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+
+}
+
+.hero .container{
+    padding: 0;
+}
+
